@@ -4,64 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact Me | Hazael Dominguez</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
+        <header id="masthead">
+                <div class="container">
+                    <a href="#" id="logo">Your Name</a>
+                    <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+            </header>
 
-    <!--header container-->
-    <div class="headerContainer">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-        <!--name header-->
-        <header>Hazael Dominguez</header>
-        
-        <!--navigation bar-->
-        <nav>
-			<ul>
-				<li class="border"><a href="index.html">About</a></li>
-				<li class="border"><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav><!--end of navigation bar-->
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-    </div><!--end of header container-->
+    </section>
 
-    <!--contact form container-->
-    <div class="mainContainer">
+  </div>
 
-        <!--contact form section-->
-        <section id="contact-form">
-
-            <!--section header-->
-            <h2>Contact</h2>
-
-            <!--contact form-->
-            <form action="" method="post">
-
-                <!--name input-->
-                <label for="name">Name</label><br>
-                <input id="name" type="text" name="name" placeholder="Darth Vader"><br>
-
-                <!--email input-->
-                <label for="email">Email</label><br>
-                <input id="email" type="text" name="email" placeholder="mrvader@empire.gov"><br>
-
-                <!--message input-->
-                <label for="message">Message</label><br>
-                <textarea id="message" rows="8">Whatcha talkin' bout Willis?</textarea>
-
-                <!--submission button-->
-                <button class="button" type="button" name="submit">Submit</button>
-
-            </form><!--end of contact form-->
-
-        </section><!--end of contact form section-->
-
-    </div><!--end of contact form container-->
-
-    <footer>&copy; 2018 Hazael Dominguez</footer>
-    
+  <footer>
+        <div class="container">
+            &copy; 2018 Hazael Dominguez
+        </div>
+    </footer>
 </body>
-
 </html>

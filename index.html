@@ -1,45 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>About Me | Hazael Dominguez</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
-
 <body>
+    <header id="masthead">
+        <div class="container">
+            <a href="#" id="logo">Your Name</a>
+            <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <!--header container-->
-    <div class="headerContainer">
-
-        <!--name header-->
-        <header>Hazael Dominguez</header>
-
-        <!--navigation bar-->
-        <nav>
-			<ul>
-				<li class="border"><a href="index.html">About</a></li>
-				<li class="border"><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav><!--end of navigation bar-->
-
-    </div><!--end of header container-->
-
-    <!--bio container-->
-    <div class="mainContainer">
-
-        <!--about me section-->
-        <section id="about-me">
-
-            <!--section header-->
-            <h2>About Me</h2>
-
-            <!--bio pic-->
-            <img id="bio-pic" src="assets/images/me.jpg" alt="Hazael">
+        <div class="wrapper">
+            <div id="main-container" class="container">
+                <section class="main-section">
+                    <h1>About Me</h1>
+                    <!--bio pic-->
+            <img src="assets/images/me.jpg" class="auth-image" alt="Hazael Dominguez">
 
             <!--personal paragraph-->
             <p>
@@ -67,13 +55,28 @@
                 his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh! Excitement. Heh! A Jedi craves not these things.
                 You are reckless!
             </p><!--end of outro paragraph-->
+                </section>
 
-        </section><!--end of about me section-->
+                <!-- 
+                    <section class="sidebar">
+                    <div id="connect">
+                        <h2>Connect with Me</h2>
 
-    </div><!--end of bio container-->
+                        <img src="assets/images/github-128.png" class="social" alt="Github">
+                        <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+                        <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+                    </div>
+                </section>
+                 -->
 
-    <footer>&copy; 2018 Hazael Dominguez</footer>
+                <div class="push"></div>
+            </div>
+        </div>
 
+        <footer>
+            <div class="container">
+                &copy; 2018 Hazael Dominguez
+            </div>
+        </footer>
 </body>
-
 </html>

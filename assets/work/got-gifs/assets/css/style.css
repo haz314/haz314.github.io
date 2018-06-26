@@ -1,0 +1,24 @@
+body {
+    font: 18px arial;
+    background: aliceblue;
+  }
+  
+  #gifImages {
+    width: 50%;
+  }
+  
+  .gif-box {
+    float: left;
+    padding: 10px;
+  }
+  
+  form {
+    float: right;
+    width: 40%;
+    padding: 15px;
+  }
+
+  
+
+  
+  

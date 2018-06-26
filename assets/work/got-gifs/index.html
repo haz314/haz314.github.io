@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Got Gifs?</title>
+
+    <!-- 1. Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- 2. Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- 3. jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- 4. Javascript -->
+    <script src="assets/javascript/gifs.js"></script>
+
+</head>
+<body>
+    
+    <!-- Where the buttons go -->
+    <div id="gifButtons"></div>
+
+    <!-- Form used to add buttons -->
+    <form id="gif-form">
+        <label for="gif-input">Add a topic</label>
+        <input type="text" id="topic-input">
+        <input type="submit" id="addGif" value="Submit">
+    </form>
+
+    <!-- Where the gifs go -->
+    <div id="gifImages"></div>
+
+</body>
+</html>
